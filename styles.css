@@ -55,13 +55,12 @@ body {
 .block_height {
   width: 20rem;
   height: 16vh;
-  /*padding: 1rem;
-   margin-top: 3.5rem;*/
 }
 
 /* anchor tag style */
 .menu>a {
   text-decoration: none;
+  color: #551a8b;
 }
 
 .menu>a:hover {
@@ -69,11 +68,12 @@ body {
 }
 
 a {
-  transition: font-size 1s;
+  text-decoration: none;
+  color: #551a8b;
 }
 
 a:hover {
-  font-size: 1.25rem;
+  color: #fff;
 }
 
 
@@ -88,8 +88,6 @@ a:focus {
 .sticky_element {
   position: sticky;
   top: 0px;
-  /* width: 960px;
-   z-index: 1; */
 }
 
 /*Colors*/
@@ -148,7 +146,6 @@ a:focus {
 
 /* Title style */
 .title0 {
-  /*width: 16rem;*/
   font-size: 6rem;
   line-height: 100%;
 }
@@ -305,7 +302,6 @@ blockquote p::after {
 }
 
 .brief_right {
-  /*border:6px solid #FFC0CB;*/
   color: #333;
   height: fit-content;
   padding: 1rem;
@@ -321,7 +317,6 @@ blockquote p::after {
 }
 
 .brief_left {
-  /*border:4px solid #FFDDA0;*/
   color: #333;
   height: fit-content;
   padding: 1rem;
@@ -412,6 +407,15 @@ blockquote p::after {
   border: 4px solid #333;
   display: grid;
   justify-content: space-between;
+}
+
+#footer a {
+  transition: font-size 1s;
+}
+
+#footer a:hover {
+  font-size: 1.25rem;
+  color: #551a8b;
 }
 
 
@@ -795,6 +799,10 @@ blockquote p::after {
     font-size: 0.75rem;
   }
 
+  #contact a:hover {
+    font-size: 0.75rem;
+  }
+
   .row>div {
     width: 7rem;
     font-size: 0.75rem;
@@ -807,6 +815,10 @@ blockquote p::after {
 
   #footer {
     font-size: 0.75rem;
+  }
+
+  #footer a:hover {
+    font-size: 0.8rem;
   }
 }
 
@@ -946,11 +958,16 @@ blockquote p::after {
     font-size: 0.75rem;
   }
 
+  #contact a:hover {
+    font-size: 0.75rem;
+  }
+
   .row>div {
     width: 7rem;
     font-size: 0.75rem;
     padding: 2rem 0.5rem;
   }
+
 
   .platforms {
     margin: 0 auto;
@@ -958,5 +975,9 @@ blockquote p::after {
 
   #footer {
     font-size: 0.75rem;
+  }
+
+  #footer a:hover {
+    font-size: 0.8rem;
   }
 }
